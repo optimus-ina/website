@@ -1,5 +1,5 @@
-import logoDark from "../../assets/images/shared/desktop/logo-dark.png";
-import logoLight from "../../assets/images/shared/desktop/logo-light.png";
+import logoDark from "../../assets/images/shared/desktop/optimus.svg";
+import logoLight from "../../assets/images/shared/desktop/optimus.svg";
 import facebook from "../../assets/images/shared/desktop/icon-facebook.svg";
 import youtube from "../../assets/images/shared/desktop/icon-youtube.svg";
 import twitter from "../../assets/images/shared/desktop/icon-twitter.svg";
@@ -61,9 +61,9 @@ export const menuData = {
   ],
   menu: [
     {
-      title: "our company",
+      title: "About Us",
       link: "/about",
-      label: "visit about page",
+      label: "visit the about page",
     },
     {
       title: "locations",
@@ -73,7 +73,7 @@ export const menuData = {
     {
       title: "contact",
       link: "/contact",
-      label: "visit contact page",
+      label: "contact us",
     },
   ],
 };

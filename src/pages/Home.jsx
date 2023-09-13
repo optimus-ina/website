@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Designo - Software Development Agency</title>
+        <title>Optimus - ""</title>
         <meta
           name="description"
           content="Designo is a world-class software development agency that focuses on building innovative tch solutions like web apps, mobile apps and graphics design."

@@ -1,9 +1,9 @@
 export const ctaData = {
-  header: "Let’s talk about your project",
+  header: "Need a solution that meets your budget and timeline?",
   subHeader:
-    "Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.",
+    "We build solutions tailored to your needs and budget. Contact us today and get a free consultation.",
   button: {
-    title: "get in touch",
+    title: "contact us",
     link: "/contact",
   },
 };

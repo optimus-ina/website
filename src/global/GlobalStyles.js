@@ -7,9 +7,9 @@ export const GlobalStyles = createGlobalStyle`
     // TODO: ROOT VALUES
     :root {
         // COLORS
-        --color-pry-100: hsl(11, 73%, 66%);
-        --color-pry-200: hsl(270, 3%, 11%);
-        --color-pry-300: hsl(0, 0%, 100%);
+        --color-pry-100: HSL(0, 100%, 30%);
+        --color-pry-200: hsl(0, 0%, 100%);
+        --color-pry-300: HSL(240, 100%, 50%);
         --color-sec-100: hsl(11, 100%, 80%);
         --color-sec-200: hsl(264, 5%, 20%);
         --color-sec-300: hsl(210, 17%, 95%);
