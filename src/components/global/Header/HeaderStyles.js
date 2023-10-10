@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   padding: 0rem 1rem;
   position: relative;
   z-index: 1000;
-  background-color: var(--color-pry-300);
+  background-color: var(--color-pry-500);
 
   @media ${QUERIES.mobile} {
     padding-top: 1rem;
@@ -64,7 +64,7 @@ export const HeaderMenuItems = styled.div`
   justify-content: flex-end;
 
   @media screen and (max-width: 686px) {
-    background-color: var(--color-pry-200);
+    background-color: var(--color-pry-500);
     position: absolute;
     top: 0;
     right: 0;

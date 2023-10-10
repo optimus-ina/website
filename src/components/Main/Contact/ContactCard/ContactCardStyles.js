@@ -68,9 +68,9 @@ export const CardForm = styled.div`
   }
 `;
 export const CardHeader = styled.h1`
-  color: var(--color-pry-300);
+  color: var(--color-pry-200);
 `;
 export const CardText = styled.p`
-  color: var(--color-pry-300);
+  color: var(--color-pry-200);
   margin-top: 2rem;
 `;

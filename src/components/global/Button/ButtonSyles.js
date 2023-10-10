@@ -5,7 +5,7 @@ import { QUERIES } from "../../../helpers/MediaQueries";
 export const ButtonContainer = styled(Link)`
   padding: 0.9rem 1rem;
   text-transform: uppercase;
-  background-color: var(--color-pry-100);
+  background-color: var(--color-pry-400);
   color: var(--color-pry-300);
   border: none;
   border-radius: var(--border-radius);
@@ -28,7 +28,7 @@ export const ButtonContainer = styled(Link)`
   ${({ primary }) =>
     primary &&
     css`
-      background-color: var(--color-pry-300);
+      background-color: var(--color-pry-400);
       color: var(--color-pry-200);
 
       &:hover {

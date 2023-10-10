@@ -60,5 +60,10 @@ export const ListName = styled.h3`
 export const ListButton = styled.div`
   a {
     border: none;
+    color: var(--color-pry-200);
+
+    &:hover {
+      background-color: var(--color-pry-200);
+    }
   }
 `;

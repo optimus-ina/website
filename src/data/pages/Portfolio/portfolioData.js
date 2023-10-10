@@ -160,8 +160,8 @@ export const portfolioData = [
     ],
   },
   {
-    id: "graphic-design",
-    header: "graphic design",
+    id: "branding-design",
+    header: "branding & design",
     subHeader:
       "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
     image: graphicDesign,

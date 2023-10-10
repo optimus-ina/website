@@ -9,7 +9,7 @@ export const CtaContainer = styled.section`
 
   h2,
   p {
-    color: var(--color-pry-300);
+    color: var(--color-pry-200);
   }
 `;
 

@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 import { QUERIES } from "../../../helpers/MediaQueries";
 
 export const FooterContainer = styled.footer`
-  background-color: var(--color-pry-200);
+  background-color: var(--color-pry-300);
   max-width: 100%;
   min-height: 0rem;
 
   a {
-    color: var(--color-pry-300);
+    color: var(--color-sec-300);
 
     &:hover {
-      color: var(--color-pry-300);
-      border-color: var(--color-pry-300);
+      color: var(--color-font-pry);
+      border-color: var(--color-font-pry);
     }
   }
 
   p {
     font-weight: var(--font-weight-200);
-    color: hsl(0, 0%, 59%);
+    color: var(--color-pry-200);
   }
 `;
 
@@ -149,12 +149,12 @@ export const FooterContactTitle = styled.p``;
 
 export const FooterContact = styled.a`
   font-weight: var(--font-weight-200);
-  color: hsl(0, 0%, 59%) !important;
+  color: var(--color-pry-200) !important;
 
   &:hover {
     border: none;
     transition: var(--transition);
-    color: var(--color-pry-100) !important;
+    color: var(--color-font-pry) !important;
   }
 `;
 

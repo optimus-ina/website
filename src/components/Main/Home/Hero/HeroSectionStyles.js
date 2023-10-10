@@ -8,7 +8,7 @@ export const HeroContainer = styled.section`
 
   h1,
   p {
-    color: var(--color-pry-300);
+    color: var(--color-pry-200);
   }
 
   @media ${QUERIES.mobile} {

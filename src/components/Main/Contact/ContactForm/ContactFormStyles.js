@@ -7,13 +7,13 @@ export const Form = styled.form`
   flex-direction: column;
   margin: 1rem 0rem;
 
-  input {
+  input, textarea {
     width: 100%;
     min-height: 3.875rem;
     padding: 1rem;
     border: none;
     background-color: transparent;
-    color: var(--color-pry-300);
+    color: var(--color-font-pry);
     font-weight: var(--font-weight-200);
     font-family: var(--font-pry-100);
 
@@ -25,7 +25,7 @@ export const Form = styled.form`
     }
 
     &::placeholder {
-      color: var(--color-sec-300);
+      color: var(--color-sec-200);
       letter-spacing: 0.1rem;
     }
 
@@ -45,7 +45,7 @@ export const Form = styled.form`
 export const FormInput = styled.div`
   display: flex;
   flex-direction: row;
-  border-bottom: 0.1rem solid var(--color-pry-300);
+  border-bottom: 0.1rem solid var(--color-sec-300);
 `;
 
 export const Error = styled.p`
@@ -109,7 +109,7 @@ export const FormButton = styled.button`
   height: 3rem;
   display: grid;
   place-items: center;
-  background-color: var(--color-pry-300);
+  background-color: var(--color-pry-400);
   color: var(--color-pry-200);
   font-family: var(--font-pry-100);
 

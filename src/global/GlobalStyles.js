@@ -7,12 +7,16 @@ export const GlobalStyles = createGlobalStyle`
     // TODO: ROOT VALUES
     :root {
         // COLORS
-        --color-pry-100: HSL(0, 100%, 30%);
+        --color-pry-100: hsla(22, 98%, 61%, 1);
         --color-pry-200: hsl(0, 0%, 100%);
-        --color-pry-300: HSL(240, 100%, 50%);
+        --color-pry-300: hsla(264, 93%, 59%, 1);
+        --color-pry-400: hsla(134, 98%, 22%, 1);
+        --color-pry-500: hsla(240, 51%, 71%, 1);
         --color-sec-100: hsl(11, 100%, 80%);
         --color-sec-200: hsl(264, 5%, 20%);
         --color-sec-300: hsl(210, 17%, 95%);
+        
+        --color-font-pry: hsl(264deg 88.15% 14.32%);
 
         // FONTS
         --font-pry-100: 'Jost', sans-serif;
@@ -51,7 +55,7 @@ export const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
         font-family: var(--font-pry-100);
         font-weight: var(--font-weight-100);
-        background-color: var(--color-pry-300);
+        background-color: var(--color-pry-500);
         color: var(--color-pry-200);
         letter-spacing: 0.1rem;
     }
@@ -64,8 +68,8 @@ export const GlobalStyles = createGlobalStyle`
         line-height: 1.625rem;
         &:hover {
             transition: var(--transition);
-            color: var(--color-sec-200);
-            border-bottom: 0.1rem solid var(--color-sec-200);
+            color: var(--color-pry-300);
+            border-bottom: 0.1rem solid var(--color-pry-300);
         }
     }
     
